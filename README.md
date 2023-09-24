@@ -38,7 +38,7 @@ A plain text description of the font that is supposed to be extremely easy to pa
 A bitmap file with all glyphs laid out one after another. To get the X coordinate of a glyph in the bitmap, simply take the ASCII number, subtract 32 (as 32 is the first visual character) and multiply by 6 (the width of each glyph): `x = (char_code - 32) * 6`
 
 ### `quickfont_alpha.bmp`
-Same as 'quickfont.bmp`, except that the background is transparent instead of black.
+Same as `quickfont.bmp`, except that the background is transparent instead of black.
 
 ## Building
 
